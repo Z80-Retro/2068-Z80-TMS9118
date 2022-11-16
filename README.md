@@ -1,3 +1,6 @@
+# DO NOT BUILD!!!  This version is flawed!
+
+
 A composite video board for a [2063-Z80](https://github.com/johnwinans/2063-Z80) board.
 
 * A youtube playlist discussing this project and how to build your own can be found in 
