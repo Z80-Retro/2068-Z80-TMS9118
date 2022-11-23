@@ -18,6 +18,6 @@ I ordered my VDP on Ebay from [hifiic](2068-Z80-TMS9118.sch) on [this auction](h
 
 I ordered my DRAMs on Ebay from [ruixin2020](https://www.ebay.com/str/ruixin2020) on [this auction](https://www.ebay.com/str/ruixin2020)
 
-The rest of the parts can be found on Digikey:
+I ordered my long pin header on Amazon [here](https://www.amazon.com/gp/product/B084Q4W1PW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
-
+See the [BOM](2068-Z80-TMS9118.md) for the rest of the parts and Digikey order numbers.
