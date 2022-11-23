@@ -23,6 +23,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3450 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 3450 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 3450 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 3450 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 3450 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 3450 7500 50  0001 C CNN "Manufacturer"
 	1    3450 7500
 	1    0    0    -1  
 $EndComp
@@ -36,6 +38,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3900 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 3900 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 3900 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 3900 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 3900 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 3900 7500 50  0001 C CNN "Manufacturer"
 	1    3900 7500
 	1    0    0    -1  
 $EndComp
@@ -49,6 +53,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4350 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 4350 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 4350 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 4350 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 4350 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 4350 7500 50  0001 C CNN "Manufacturer"
 	1    4350 7500
 	1    0    0    -1  
 $EndComp
@@ -325,6 +331,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4750 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 4750 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 4750 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 4750 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 4750 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 4750 7500 50  0001 C CNN "Manufacturer"
 	1    4750 7500
 	1    0    0    -1  
 $EndComp
@@ -341,10 +349,11 @@ P 5100 7500
 F 0 "C7" H 5191 7546 50  0000 L CNN
 F 1 "470uF" H 5191 7455 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 5100 7500 50  0001 C CNN
-F 3 "" H 5100 7500 50  0001 C CNN
-F 4 "" H 5100 7500 50  0001 C CNN "Description"
-F 5 "" H 5100 7500 50  0001 C CNN "Digi-Key_PN"
-F 6 "" H 5100 7500 50  0001 C CNN "MPN"
+F 3 "https://www.cde.com/resources/catalogs/SK.pdf" H 5100 7500 50  0001 C CNN
+F 4 "470 µF 10 V Aluminum Electrolytic Capacitors Radial, Can 540mOhm 2000 Hrs @ 85°C" H 5100 7500 50  0001 C CNN "Description"
+F 5 "338-1709-ND" H 5100 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "SK471M010ST" H 5100 7500 50  0001 C CNN "MPN"
+F 7 "Cornell Dubilier Electronics (CDE)" H 5100 7500 50  0001 C CNN "Manufacturer"
 	1    5100 7500
 	1    0    0    -1  
 $EndComp
@@ -361,9 +370,11 @@ P 8250 5600
 F 0 "Q3" H 8440 5646 50  0000 L CNN
 F 1 "2N4401" H 8440 5555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L" H 8450 5700 50  0001 C CNN
-F 3 "" H 8250 5600 50  0001 C CNN
-F 4 "NPN transistor" H 8250 5600 50  0001 C CNN "Description"
-F 5 "" H 8250 5600 50  0001 C CNN "Digi-Key_PN"
+F 3 "https://rocelec.widen.net/view/pdf/izahwonzju/ONSM-S-A0003587700-1.pdf?t.download=true&u=5oefqw" H 8250 5600 50  0001 C CNN
+F 4 "TRANS NPN 40V 0.6A TO92-3" H 8250 5600 50  0001 C CNN "Description"
+F 5 "2N4401TFCT-ND" H 8250 5600 50  0001 C CNN "Digi-Key_PN"
+F 6 "2N4401TF" H 8250 5600 50  0001 C CNN "MPN"
+F 7 "onsemi" H 8250 5600 50  0001 C CNN "Manufacturer"
 	1    8250 5600
 	1    0    0    -1  
 $EndComp
@@ -447,6 +458,7 @@ F 0 "U3" H 6850 4825 50  0000 C CNN
 F 1 "TMS9118" H 6850 4734 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 6850 3700 50  0001 C CNN
 F 3 "" H 6850 3700 50  0001 C CNN
+F 4 "EBAY" H 6850 3700 50  0001 C CNN "MPN"
 	1    6850 3700
 	1    0    0    -1  
 $EndComp
@@ -490,6 +502,10 @@ F 0 "U4" H 4900 4700 50  0000 C CNN
 F 1 "74LS138" H 4900 4600 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 4600 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 4600 4100 50  0001 C CNN
+F 4 "IC DECODER/DEMUX 1X3:8 16DIP" H 4600 4100 50  0001 C CNN "Description"
+F 5 "296-1639-5-ND" H 4600 4100 50  0001 C CNN "Digi-Key_PN"
+F 6 "SN74LS138N" H 4600 4100 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 4600 4100 50  0001 C CNN "Manufacturer"
 	1    4600 4100
 	1    0    0    -1  
 $EndComp
@@ -542,9 +558,11 @@ P 7550 2700
 F 0 "Y1" V 7600 2400 50  0000 L CNN
 F 1 "10.738635MHZ" V 7500 2050 50  0000 L CNN
 F 2 "Crystal:Crystal_HC49-U_Horizontal" H 7550 2700 50  0001 C CNN
-F 3 "~" H 7550 2700 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/MP.pdf" H 7550 2700 50  0001 C CNN
 F 4 "CTX1443-ND" H 7550 2700 50  0001 C CNN "Digi-Key_PN"
 F 5 "MP107-E" H 7550 2700 50  0001 C CNN "MPN"
+F 6 "CRYSTAL 10.738635MHZ 32PF TH" H 7550 2700 50  0001 C CNN "Description"
+F 7 "CTS-Frequency Controls" H 7550 2700 50  0001 C CNN "Manufacturer"
 	1    7550 2700
 	0    -1   -1   0   
 $EndComp
@@ -633,9 +651,11 @@ P 8150 2500
 F 0 "C4" H 8242 2546 50  0000 L CNN
 F 1 "27pF" H 8242 2455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8150 2500 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 8150 2500 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 8150 2500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 8150 2500 50  0001 C CNN "Digi-Key_PN"
+F 3 "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C270K2G5TA" H 8150 2500 50  0001 C CNN
+F 4 "CAP CER 27PF 10% 200V C0G RADIAL" H 8150 2500 50  0001 C CNN "Description"
+F 5 "399-13983-ND" H 8150 2500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C270K2G5TA" H 8150 2500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 8150 2500 50  0001 C CNN "Manufacturer"
 	1    8150 2500
 	0    -1   -1   0   
 $EndComp
@@ -646,9 +666,11 @@ P 8150 2900
 F 0 "C5" H 8242 2946 50  0000 L CNN
 F 1 "27pF" H 8242 2855 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8150 2900 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 8150 2900 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 8150 2900 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 8150 2900 50  0001 C CNN "Digi-Key_PN"
+F 3 "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C270K2G5TA" H 8150 2900 50  0001 C CNN
+F 4 "CAP CER 27PF 10% 200V C0G RADIAL" H 8150 2900 50  0001 C CNN "Description"
+F 5 "399-13983-ND" H 8150 2900 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C270K2G5TA" H 8150 2900 50  0001 C CNN "MPN"
+F 7 "KEMET" H 8150 2900 50  0001 C CNN "Manufacturer"
 	1    8150 2900
 	0    1    1    0   
 $EndComp
@@ -676,6 +698,7 @@ F 0 "U1" H 6900 2165 50  0000 C CNN
 F 1 "TMS4416" H 6900 2074 50  0000 C CNN
 F 2 "Package_DIP:DIP-18_W7.62mm_Socket" H 7050 1500 50  0001 C CNN
 F 3 "" H 7050 1500 50  0001 C CNN
+F 4 "EBAY" H 6900 1450 50  0001 C CNN "MPN"
 	1    6900 1450
 	1    0    0    -1  
 $EndComp
@@ -687,6 +710,7 @@ F 0 "U2" H 9100 2165 50  0000 C CNN
 F 1 "TMS4416" H 9100 2074 50  0000 C CNN
 F 2 "Package_DIP:DIP-18_W7.62mm_Socket" H 9250 1500 50  0001 C CNN
 F 3 "" H 9250 1500 50  0001 C CNN
+F 4 "EBAY" H 9100 1450 50  0001 C CNN "MPN"
 	1    9100 1450
 	1    0    0    -1  
 $EndComp
@@ -972,6 +996,10 @@ F 0 "U5" H 4900 2700 50  0000 C CNN
 F 1 "74LS138" H 4900 2600 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 4600 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 4600 2100 50  0001 C CNN
+F 4 "IC DECODER/DEMUX 1X3:8 16DIP" H 4600 2100 50  0001 C CNN "Description"
+F 5 "296-1639-5-ND" H 4600 2100 50  0001 C CNN "Digi-Key_PN"
+F 6 "SN74LS138N" H 4600 2100 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 4600 2100 50  0001 C CNN "Manufacturer"
 	1    4600 2100
 	1    0    0    -1  
 $EndComp
@@ -1014,7 +1042,7 @@ P 9350 5850
 F 0 "J1" H 9450 5825 50  0000 L CNN
 F 1 "RCJ-014" H 9400 5700 50  0000 L CNN
 F 2 "jb-footprint:RCJ-01X" H 9350 5850 50  0001 C CNN
-F 3 " https://www.cuidevices.com/product/resource/rcj-01x.pdf" H 9350 5850 50  0001 C CNN
+F 3 "CP-1403-ND" H 9350 5850 50  0001 C CNN
 F 4 "CONN RCA JACK MONO 3.2MM R/A" H 9350 5850 50  0001 C CNN "Description"
 F 5 "CP-1403-ND" H 9350 5850 50  0001 C CNN "Digi-Key_PN"
 F 6 "RCJ-014" H 9350 5850 50  0001 C CNN "MPN"
@@ -1041,6 +1069,10 @@ F 0 "U6" H 2950 2700 50  0000 C CNN
 F 1 "74LS244" H 2950 2600 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 2700 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 2700 1900 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.25V 20DIP" H 2700 1900 50  0001 C CNN "Description"
+F 5 "296-1653-5-ND" H 2700 1900 50  0001 C CNN "Digi-Key_PN"
+F 6 "SN74LS244N" H 2700 1900 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2700 1900 50  0001 C CNN "Manufacturer"
 	1    2700 1900
 	1    0    0    -1  
 $EndComp
@@ -1077,6 +1109,10 @@ F 0 "U7" H 3000 4950 50  0000 C CNN
 F 1 "74LS244" H 3000 4850 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 2700 4150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 2700 4150 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.25V 20DIP" H 2700 4150 50  0001 C CNN "Description"
+F 5 "296-1653-5-ND" H 2700 4150 50  0001 C CNN "Digi-Key_PN"
+F 6 "SN74LS244N" H 2700 4150 50  0001 C CNN "MPN"
+F 7 "Texas Instruments" H 2700 4150 50  0001 C CNN "Manufacturer"
 	1    2700 4150
 	1    0    0    -1  
 $EndComp
@@ -1087,7 +1123,11 @@ P 900 4050
 F 0 "RN2" V 283 4050 50  0000 C CNN
 F 1 "R_Network08" V 374 4050 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1375 4050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 900 4050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 900 4050 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 10K OHM 9SIP" H 900 4050 50  0001 C CNN "Description"
+F 5 "4609X-101-103LF-ND" H 900 4050 50  0001 C CNN "Digi-Key_PN"
+F 6 "4609X-101-103LF" H 900 4050 50  0001 C CNN "MPN"
+F 7 "Bourns Inc." H 900 4050 50  0001 C CNN "Manufacturer"
 	1    900  4050
 	0    -1   1    0   
 $EndComp
@@ -1159,9 +1199,9 @@ F 0 "R7" V 7600 5750 50  0000 L CNN
 F 1 "470" V 7700 5800 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7630 5800 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 7700 5800 50  0001 C CNN
-F 4 "RES 1K OHM 5% 1/8W AXIAL" H 7700 5800 50  0001 C CNN "Description"
-F 5 "CF18JT1K00CT-ND" H 7700 5800 50  0001 C CNN "Digi-Key_PN"
-F 6 "CF18JT1K00" H 7700 5800 50  0001 C CNN "MPN"
+F 4 "RES 470 OHM 5% 1/8W AXIAL" H 7700 5800 50  0001 C CNN "Description"
+F 5 "CF18JT470RCT-ND" H 7700 5800 50  0001 C CNN "Digi-Key_PN"
+F 6 "CF18JT470R" H 7700 5800 50  0001 C CNN "MPN"
 F 7 "Stackpole Electronics Inc" H 7700 5800 50  0001 C CNN "Manufacturer"
 	1    7700 5800
 	1    0    0    -1  
@@ -1194,9 +1234,9 @@ F 0 "R3" V 8450 5800 50  0000 L CNN
 F 1 "33" V 8550 5850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8480 5850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 8550 5850 50  0001 C CNN
-F 4 "RES 1K OHM 5% 1/8W AXIAL" H 8550 5850 50  0001 C CNN "Description"
-F 5 "CF18JT1K00CT-ND" H 8550 5850 50  0001 C CNN "Digi-Key_PN"
-F 6 "CF18JT1K00" H 8550 5850 50  0001 C CNN "MPN"
+F 4 "RES 33 OHM 5% 1/8W AXIAL" H 8550 5850 50  0001 C CNN "Description"
+F 5 "CF18JT33R0CT-ND" H 8550 5850 50  0001 C CNN "Digi-Key_PN"
+F 6 "CF18JT33R0" H 8550 5850 50  0001 C CNN "MPN"
 F 7 "Stackpole Electronics Inc" H 8550 5850 50  0001 C CNN "Manufacturer"
 	1    8550 5850
 	0    -1   -1   0   
@@ -1320,7 +1360,11 @@ P 900 1800
 F 0 "RN1" V 283 1800 50  0000 C CNN
 F 1 "R_Network08" V 374 1800 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1375 1800 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 900 1800 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 900 1800 50  0001 C CNN
+F 4 "RES ARRAY 8 RES 10K OHM 9SIP" H 900 1800 50  0001 C CNN "Description"
+F 5 "4609X-101-103LF-ND" H 900 1800 50  0001 C CNN "Digi-Key_PN"
+F 6 "4609X-101-103LF" H 900 1800 50  0001 C CNN "MPN"
+F 7 "Bourns Inc." H 900 1800 50  0001 C CNN "Manufacturer"
 	1    900  1800
 	0    -1   1    0   
 $EndComp
@@ -1349,7 +1393,11 @@ P 750 6900
 F 0 "J4" H 800 7400 50  0000 C CNN
 F 1 "DB9_Male_MountingHoles" H 930 6900 50  0001 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 750 6900 50  0001 C CNN
-F 3 " ~" H 750 6900 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf" H 750 6900 50  0001 C CNN
+F 4 "9 Position D-Sub Plug, Male Pins Connector" H 750 6900 50  0001 C CNN "Description"
+F 5 "AE10970-ND" H 750 6900 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-DS 09 A/KG-T4S" H 750 6900 50  0001 C CNN "MPN"
+F 7 "Assmann WSW Components" H 750 6900 50  0001 C CNN "Manufacturer"
 	1    750  6900
 	-1   0    0    -1  
 $EndComp
@@ -1422,6 +1470,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1059.pdf
 F 4 "CAP ALUM 10UF 20% 25V RADIAL" H 9000 5400 50  0001 C CNN "Description"
 F 5 "P975-ND" H 9000 5400 50  0001 C CNN "Digi-Key_PN"
 F 6 "ECE-A1EKS100" H 9000 5400 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 9000 5400 50  0001 C CNN "Manufacturer"
 	1    9000 5400
 	1    0    0    -1  
 $EndComp
@@ -1435,6 +1484,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8650 5400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 8650 5400 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 8650 5400 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 8650 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 8650 5400 50  0001 C CNN "MPN"
+F 7 "KEMET" H 8650 5400 50  0001 C CNN "Manufacturer"
 	1    8650 5400
 	1    0    0    -1  
 $EndComp
@@ -1472,6 +1523,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3100 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 3100 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 3100 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 3100 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 3100 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 3100 7500 50  0001 C CNN "Manufacturer"
 	1    3100 7500
 	1    0    0    -1  
 $EndComp
@@ -1550,7 +1603,11 @@ P 3000 6150
 F 0 "J5" H 3050 6767 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 3050 6676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3000 6150 50  0001 C CNN
-F 3 "~" H 3000 6150 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf" H 3000 6150 50  0001 C CNN
+F 4 "CONN HEADER VERT 20POS 2.54MM" H 3000 6150 50  0001 C CNN "Description"
+F 5 "2057-PH2-20-UA-ND" H 3000 6150 50  0001 C CNN "Digi-Key_PN"
+F 6 "PH2-20-UA" H 3000 6150 50  0001 C CNN "MPN"
+F 7 "Adam Tech" H 3000 6150 50  0001 C CNN "Manufacturer"
 	1    3000 6150
 	1    0    0    -1  
 $EndComp
@@ -1790,11 +1847,11 @@ P 9450 3700
 F 0 "J2" H 9500 4750 50  0000 C CNN
 F 1 "Conn_02x20_Counter_Clockwise" H 9500 4726 50  0001 C CNN
 F 2 "jb-footprint:PinSocket_2x20_P2.54mm_Vertical_clockwise" H 9450 3700 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 9450 3700 50  0001 C CNN
-F 4 "Female connector, double row, 02x20" H 9450 3700 50  0001 C CNN "Description"
-F 5 "S6104-ND" H 9450 3700 50  0001 C CNN "Digi-Key_PN"
-F 6 "PPTC202LFBN-RC" H 9450 3700 50  0001 C CNN "MPN"
-F 7 "Sullins Connector Solutions" H 9450 3700 50  0001 C CNN "Manufacturer"
+F 3 "https://www.amazon.com/gp/product/B084Q4W1PW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1" H 9450 3700 50  0001 C CNN
+F 4 "2 x 20 (40 Pin) Extra Tall Female 0.1 Inch Pitch Stacking Header" H 9450 3700 50  0001 C CNN "Description"
+F 5 "" H 9450 3700 50  0001 C CNN "Digi-Key_PN"
+F 6 "" H 9450 3700 50  0001 C CNN "MPN"
+F 7 "" H 9450 3700 50  0001 C CNN "Manufacturer"
 	1    9450 3700
 	1    0    0    -1  
 $EndComp
@@ -1823,7 +1880,11 @@ P 5700 5400
 F 0 "D1" H 5700 5616 50  0000 C CNN
 F 1 "1N914" H 5700 5525 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5700 5225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5700 5400 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/bhc41r7lwc/ONSM-S-A0003539415-1.pdf?t.download=true&u=5oefqw" H 5700 5400 50  0001 C CNN
+F 4 "DIODE GEN PURP 100V 200MA DO35" H 5700 5400 50  0001 C CNN "Description"
+F 5 "1N914CT-ND" H 5700 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "1N914TR" H 5700 5400 50  0001 C CNN "MPN"
+F 7 "onsemi" H 5700 5400 50  0001 C CNN "Manufacturer"
 	1    5700 5400
 	1    0    0    -1  
 $EndComp
@@ -1840,7 +1901,11 @@ P 6000 5200
 F 0 "J6" V 6100 5200 50  0000 R CNN
 F 1 "Conn_01x02" V 5873 5012 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 5200 50  0001 C CNN
-F 3 "~" H 6000 5200 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 6000 5200 50  0001 C CNN
+F 4 "CONN HEADER VERT 2POS 2.54MM" H 6000 5200 50  0001 C CNN "Description"
+F 5 "2057-PH1-02-UA-ND" H 6000 5200 50  0001 C CNN "Digi-Key_PN"
+F 6 "PH1-02-UA" H 6000 5200 50  0001 C CNN "MPN"
+F 7 "Adam Tech" H 6000 5200 50  0001 C CNN "Manufacturer"
 	1    6000 5200
 	0    -1   -1   0   
 $EndComp
@@ -1865,9 +1930,11 @@ P 8950 6050
 F 0 "C11" H 9042 6096 50  0000 L CNN
 F 1 "470pF" H 9042 6005 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8950 6050 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 8950 6050 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 8950 6050 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 8950 6050 50  0001 C CNN "Digi-Key_PN"
+F 3 "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C315C471K1G5TA" H 8950 6050 50  0001 C CNN
+F 4 "CAP CER 470PF 10% 100V C0G RAD" H 8950 6050 50  0001 C CNN "Description"
+F 5 "399-13987-ND" H 8950 6050 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C471K1G5TA" H 8950 6050 50  0001 C CNN "MPN"
+F 7 "KEMET" H 8950 6050 50  0001 C CNN "Manufacturer"
 	1    8950 6050
 	1    0    0    -1  
 $EndComp
@@ -1915,7 +1982,11 @@ P 750 5450
 F 0 "J3" H 800 5950 50  0000 C CNN
 F 1 "DB9_Male_MountingHoles" H 930 5450 50  0001 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 750 5450 50  0001 C CNN
-F 3 " ~" H 750 5450 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf" H 750 5450 50  0001 C CNN
+F 4 "9 Position D-Sub Plug, Male Pins Connector" H 750 5450 50  0001 C CNN "Description"
+F 5 "AE10970-ND" H 750 5450 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-DS 09 A/KG-T4S" H 750 5450 50  0001 C CNN "MPN"
+F 7 "Assmann WSW Components" H 750 5450 50  0001 C CNN "Manufacturer"
 	1    750  5450
 	-1   0    0    -1  
 $EndComp
@@ -1948,7 +2019,11 @@ P 8350 5050
 F 0 "FB1" H 8450 5096 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" H 8450 5005 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8280 5050 50  0001 C CNN
-F 3 "~" H 8350 5050 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Semiconductors%20ICs%20PDFs/EXCEL_Spec.pdf" H 8350 5050 50  0001 C CNN
+F 4 "FERRITE BEAD 50 OHM AXIAL 1LN" H 8350 5050 50  0001 C CNN "Description"
+F 5 "P9820BK-ND" H 8350 5050 50  0001 C CNN "Digi-Key_PN"
+F 6 "EXC-ELSA35" H 8350 5050 50  0001 C CNN "MPN"
+F 7 "Panasonic Electronic Components" H 8350 5050 50  0001 C CNN "Manufacturer"
 	1    8350 5050
 	1    0    0    -1  
 $EndComp
@@ -1964,6 +2039,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2650 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 2650 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 2650 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 2650 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 2650 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 2650 7500 50  0001 C CNN "Manufacturer"
 	1    2650 7500
 	1    0    0    -1  
 $EndComp
@@ -1981,6 +2058,8 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2300 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 2300 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 2300 7500 50  0001 C CNN "Description"
 F 5 "399-9859-1-ND‎" H 2300 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "C315C104M5U5TA7303" H 2300 7500 50  0001 C CNN "MPN"
+F 7 "KEMET" H 2300 7500 50  0001 C CNN "Manufacturer"
 	1    2300 7500
 	1    0    0    -1  
 $EndComp
