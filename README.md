@@ -1,8 +1,6 @@
 # VDP Retro board Rev 1
 
-NOTE: The Rev 1 schematic is based on the bodge-hacked version of Rev 0 as seen on John's 
-Basement.  The Rev 1 PCB is being tested now.  This message will be changed after it has 
-been confirmed that the Rev 1 PCB is functional. (ETA December 7, 2022)
+NOTE: The Rev 1 PCB has been tested and works.
 
 A composite video board for a [2063-Z80](https://github.com/johnwinans/2063-Z80) board.
 
