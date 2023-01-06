@@ -1,8 +1,13 @@
 # VDP Retro board Rev 1
 
-NOTE: The Rev 1 PCB has been tested and works.
+NOTE: The Rev 1 PCB has been tested and works!
 
 A composite video board for a [2063-Z80](https://github.com/johnwinans/2063-Z80) board.
+
+* Manuals for the TMS9118 VDP chip family 
+    - [TMS9918 1982](http://www.bitsavers.org/components/ti/TMS9900/TMS9918A_TMS9928A_TMS9929A_Video_Display_Processors_Data_Manual_Nov82.pdf)
+    - [TMS9118 1984](https://map.grauw.nl/resources/video/ti-vdp-programmers-guide.pdf)
+	- [TMS9118 datasheet](https://www.datasheetarchive.com/pdf/download.php?id=066bc6d93d0e48fb129b2e6e6f420933c63ad7&type=M&term=TMS9118) (Sorry, this is the only place I could find it.)
 
 * A youtube playlist discussing this project and how to build your own can be found in 
 [John's Basement](https://www.youtube.com/watch?v=oekucjDcNbA&list=PL3by7evD3F51Cf9QnsAEdgSQ4cz7HQZX5)
