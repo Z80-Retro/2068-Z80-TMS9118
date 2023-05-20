@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TMS9118 Video & Joysticks"
-Date "2021-09-05"
-Rev "1"
+Date "2023-05-20"
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -275,7 +275,6 @@ $EndComp
 NoConn ~ 9750 4000
 NoConn ~ 9750 4400
 NoConn ~ 9250 4500
-NoConn ~ 9250 4400
 NoConn ~ 9250 3300
 $Comp
 L Mechanical:MountingHole H1
@@ -1576,8 +1575,6 @@ Wire Wire Line
 	2400 6350 2800 6350
 Wire Wire Line
 	2800 6450 2400 6450
-Wire Wire Line
-	2400 5950 2800 5950
 Text Label 2400 5750 0    50   ~ 0
 A8_0
 Text Label 2400 5850 0    50   ~ 0
@@ -1871,7 +1868,7 @@ Wire Wire Line
 	9250 4300 8900 4300
 Text Label 8900 4300 0    50   ~ 0
 ~INT
-Text Label 6350 5400 2    50   ~ 0
+Text Label 6000 5300 0    50   ~ 0
 ~INT
 $Comp
 L Diode:1N914 D1
@@ -1889,28 +1886,11 @@ F 7 "onsemi" H 5700 5400 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 5400 6000 5400
-Wire Wire Line
-	5550 5400 5550 4300
+	5550 5400 5550 5350
 Wire Wire Line
 	5550 4300 6450 4300
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 64FA6625
-P 6000 5200
-F 0 "J6" V 6100 5200 50  0000 R CNN
-F 1 "Conn_01x02" V 5873 5012 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 5200 50  0001 C CNN
-F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 6000 5200 50  0001 C CNN
-F 4 "CONN HEADER VERT 2POS 2.54MM" H 6000 5200 50  0001 C CNN "Description"
-F 5 "2057-PH1-02-UA-ND" H 6000 5200 50  0001 C CNN "Digi-Key_PN"
-F 6 "PH1-02-UA" H 6000 5200 50  0001 C CNN "MPN"
-F 7 "Adam Tech" H 6000 5200 50  0001 C CNN "Manufacturer"
-	1    6000 5200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	6100 5400 6350 5400
+	6250 5300 6000 5300
 Wire Wire Line
 	2200 1400 1800 1400
 Text Label 1500 1400 2    50   ~ 0
@@ -2069,4 +2049,53 @@ Connection ~ 2650 7400
 Wire Wire Line
 	2650 7600 2300 7600
 Connection ~ 2650 7600
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 646B8B12
+P 2150 5750
+F 0 "J7" V 2250 5750 50  0000 R CNN
+F 1 "Conn_01x02" V 2023 5562 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2150 5750 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 2150 5750 50  0001 C CNN
+F 4 "CONN HEADER VERT 2POS 2.54MM" H 2150 5750 50  0001 C CNN "Description"
+F 5 "2057-PH1-02-UA-ND" H 2150 5750 50  0001 C CNN "Digi-Key_PN"
+F 6 "PH1-02-UA" H 2150 5750 50  0001 C CNN "MPN"
+F 7 "Adam Tech" H 2150 5750 50  0001 C CNN "Manufacturer"
+	1    2150 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 5950 2800 5950
+Wire Wire Line
+	2150 5950 1950 5950
+Wire Wire Line
+	1950 5950 1950 5350
+Wire Wire Line
+	1950 5350 5550 5350
+Connection ~ 5550 5350
+Wire Wire Line
+	5550 5350 5550 4300
+Text Notes 2100 5350 0    50   ~ 10
+Insert J7 to poll the VDP ~IRQ~ signal via U6 (on port 0xA8)
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 647F010F
+P 6450 5400
+F 0 "J6" H 6530 5396 50  0000 L CNN
+F 1 "Conn_01x03" V 6323 5212 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6450 5400 50  0001 C CNN
+F 3 "~" H 6450 5400 50  0001 C CNN
+	1    6450 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5400 6250 5400
+Text Label 6000 5500 0    50   ~ 0
+~NMI
+Wire Wire Line
+	6250 5500 6000 5500
+Wire Wire Line
+	9250 4400 8900 4400
+Text Label 8900 4400 0    50   ~ 0
+~NMI
 $EndSCHEMATC
