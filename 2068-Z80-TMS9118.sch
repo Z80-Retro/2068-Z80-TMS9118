@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TMS9118 Video & Joysticks"
-Date "2023-05-20"
-Rev "2"
+Date "2023-06-03"
+Rev "2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1385,21 +1385,6 @@ Text Label 1500 1900 2    50   ~ 0
 A8_5
 Text Label 1500 2100 2    50   ~ 0
 A8_4
-$Comp
-L Connector:DB9_Male_MountingHoles J4
-U 1 1 63B67655
-P 750 6900
-F 0 "J4" H 800 7400 50  0000 C CNN
-F 1 "DB9_Male_MountingHoles" H 930 6900 50  0001 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 750 6900 50  0001 C CNN
-F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf" H 750 6900 50  0001 C CNN
-F 4 "9 Position D-Sub Plug, Male Pins Connector" H 750 6900 50  0001 C CNN "Description"
-F 5 "AE10970-ND" H 750 6900 50  0001 C CNN "Digi-Key_PN"
-F 6 "A-DS 09 A/KG-T4S" H 750 6900 50  0001 C CNN "MPN"
-F 7 "Assmann WSW Components" H 750 6900 50  0001 C CNN "Manufacturer"
-	1    750  6900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 3750 1100 3750
 Wire Wire Line
@@ -1674,9 +1659,9 @@ F 3 "" H 1400 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 5350 1400 5350
+	1050 5350 1100 5350
 Wire Wire Line
-	1050 6800 1400 6800
+	1050 6800 1100 6800
 Wire Wire Line
 	1050 6700 1300 6700
 Wire Wire Line
@@ -1953,24 +1938,6 @@ Text Notes 1500 5450 0    50   ~ 10
 Left
 Text Notes 1500 5850 0    50   ~ 10
 Up
-NoConn ~ 1050 5550
-NoConn ~ 1050 5150
-$Comp
-L Connector:DB9_Male_MountingHoles J3
-U 1 1 6392BF40
-P 750 5450
-F 0 "J3" H 800 5950 50  0000 C CNN
-F 1 "DB9_Male_MountingHoles" H 930 5450 50  0001 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 750 5450 50  0001 C CNN
-F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf" H 750 5450 50  0001 C CNN
-F 4 "9 Position D-Sub Plug, Male Pins Connector" H 750 5450 50  0001 C CNN "Description"
-F 5 "AE10970-ND" H 750 5450 50  0001 C CNN "Digi-Key_PN"
-F 6 "A-DS 09 A/KG-T4S" H 750 5450 50  0001 C CNN "MPN"
-F 7 "Assmann WSW Components" H 750 5450 50  0001 C CNN "Manufacturer"
-	1    750  5450
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 1050 5050
 Text Notes 1500 5650 0    50   ~ 10
 Down
 Text Notes 1500 5750 0    50   ~ 10
@@ -1985,9 +1952,6 @@ Text Notes 1500 7100 0    50   ~ 10
 Down
 Text Notes 1500 7200 0    50   ~ 10
 Fire
-NoConn ~ 1050 6500
-NoConn ~ 1050 6600
-NoConn ~ 1050 7000
 Wire Wire Line
 	7700 5600 8050 5600
 Wire Wire Line
@@ -2098,4 +2062,139 @@ Wire Wire Line
 	9250 4400 8900 4400
 Text Label 8900 4400 0    50   ~ 0
 ~NMI
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 64804C73
+P 1200 6250
+F 0 "J8" V 1300 6250 50  0000 R CNN
+F 1 "Conn_01x02" V 1073 6062 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1200 6250 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 1200 6250 50  0001 C CNN
+F 4 "CONN HEADER VERT 2POS 2.54MM" H 1200 6250 50  0001 C CNN "Description"
+F 5 "2057-PH1-02-UA-ND" H 1200 6250 50  0001 C CNN "Digi-Key_PN"
+F 6 "PH1-02-UA" H 1200 6250 50  0001 C CNN "MPN"
+F 7 "Adam Tech" H 1200 6250 50  0001 C CNN "Manufacturer"
+	1    1200 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:DB9_Male_MountingHoles J4
+U 1 1 63B67655
+P 750 6900
+F 0 "J4" H 800 7400 50  0000 C CNN
+F 1 "DB9_Male_MountingHoles" H 930 6900 50  0001 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 750 6900 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf" H 750 6900 50  0001 C CNN
+F 4 "9 Position D-Sub Plug, Male Pins Connector" H 750 6900 50  0001 C CNN "Description"
+F 5 "AE10970-ND" H 750 6900 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-DS 09 A/KG-T4S" H 750 6900 50  0001 C CNN "MPN"
+F 7 "Assmann WSW Components" H 750 6900 50  0001 C CNN "Manufacturer"
+	1    750  6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Male_MountingHoles J3
+U 1 1 6392BF40
+P 750 5450
+F 0 "J3" H 800 5950 50  0000 C CNN
+F 1 "DB9_Male_MountingHoles" H 930 5450 50  0001 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 750 5450 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf" H 750 5450 50  0001 C CNN
+F 4 "9 Position D-Sub Plug, Male Pins Connector" H 750 5450 50  0001 C CNN "Description"
+F 5 "AE10970-ND" H 750 5450 50  0001 C CNN "Digi-Key_PN"
+F 6 "A-DS 09 A/KG-T4S" H 750 5450 50  0001 C CNN "MPN"
+F 7 "Assmann WSW Components" H 750 5450 50  0001 C CNN "Manufacturer"
+	1    750  5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6500 1200 6500
+Wire Wire Line
+	1200 6500 1200 6450
+Wire Wire Line
+	1300 6450 1400 6450
+$Comp
+L power:+5V #PWR0124
+U 1 1 6485FD29
+P 1950 6450
+F 0 "#PWR0124" H 1950 6300 50  0001 C CNN
+F 1 "+5V" H 1965 6623 50  0000 C CNN
+F 2 "" H 1950 6450 50  0001 C CNN
+F 3 "" H 1950 6450 50  0001 C CNN
+	1    1950 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 648995F2
+P 1700 6450
+F 0 "R1" V 1600 6400 50  0000 L CNN
+F 1 "100" V 1700 6450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 6450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1700 6450 50  0001 C CNN
+F 4 "RES 33 OHM 5% 1/8W AXIAL" H 1700 6450 50  0001 C CNN "Description"
+F 5 "CF18JT33R0CT-ND" H 1700 6450 50  0001 C CNN "Digi-Key_PN"
+F 6 "CF18JT33R0" H 1700 6450 50  0001 C CNN "MPN"
+F 7 "Stackpole Electronics Inc" H 1700 6450 50  0001 C CNN "Manufacturer"
+	1    1700 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 6450 1950 6450
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 648D087B
+P 1150 4750
+F 0 "J9" V 1250 4750 50  0000 R CNN
+F 1 "Conn_01x02" V 1023 4562 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1150 4750 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 1150 4750 50  0001 C CNN
+F 4 "CONN HEADER VERT 2POS 2.54MM" H 1150 4750 50  0001 C CNN "Description"
+F 5 "2057-PH1-02-UA-ND" H 1150 4750 50  0001 C CNN "Digi-Key_PN"
+F 6 "PH1-02-UA" H 1150 4750 50  0001 C CNN "MPN"
+F 7 "Adam Tech" H 1150 4750 50  0001 C CNN "Manufacturer"
+	1    1150 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 5050 1150 5050
+Wire Wire Line
+	1150 5050 1150 4950
+Wire Wire Line
+	1250 4950 1800 4950
+Wire Wire Line
+	1800 4950 1800 6150
+Wire Wire Line
+	1800 6150 1400 6150
+Wire Wire Line
+	1400 6150 1400 6450
+Wire Wire Line
+	1400 6450 1550 6450
+Connection ~ 1400 6450
+Wire Wire Line
+	1050 5150 1100 5150
+Wire Wire Line
+	1100 5150 1100 5350
+Connection ~ 1100 5350
+Wire Wire Line
+	1100 5350 1400 5350
+Wire Wire Line
+	1050 6600 1100 6600
+Wire Wire Line
+	1100 6600 1100 6800
+Connection ~ 1100 6800
+Wire Wire Line
+	1100 6800 1400 6800
+Wire Wire Line
+	1050 7000 1300 7000
+Text Label 1300 7000 2    50   ~ 0
+A9_4
+Wire Wire Line
+	1050 5550 1300 5550
+Text Label 1300 5550 2    50   ~ 0
+A8_4
+Text Notes 1500 5550 0    50   ~ 10
+Btn 2
+Text Notes 1500 7000 0    50   ~ 10
+Btn 2
 $EndSCHEMATC
