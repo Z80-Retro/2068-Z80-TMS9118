@@ -1,6 +1,5 @@
-# VDP Retro board Rev 1
+# VDP Retro board Rev 2.1
 
-NOTE: The Rev 1 PCB has been tested and works!
 
 A composite video board for a [2063-Z80](https://github.com/johnwinans/2063-Z80) board.
 
@@ -24,3 +23,12 @@ I ordered my DRAMs on Ebay from [ruixin2020](https://www.ebay.com/str/ruixin2020
 I ordered my long pin header on Amazon [here](https://www.amazon.com/gp/product/B084Q4W1PW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
 See the [BOM](2068-Z80-TMS9118.md) for the rest of the parts and Digikey order numbers.
+
+# Release Notes
+## Rev 2 
+
+Change J6 and add J7 to allow routing the IRQ signal from the VDP to the IRQ, NMI, or A8_1
+
+## Rev 2.1 
+
+Add support for MSX joypad
