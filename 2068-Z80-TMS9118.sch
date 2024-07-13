@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TMS9118 Video & Joysticks"
-Date "2023-06-03"
-Rev "2.1"
+Date "2024-07-13"
+Rev "2.1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -22,7 +22,7 @@ F 1 ".1uF" H 3542 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3450 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 3450 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 3450 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 3450 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 3450 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 3450 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 3450 7500 50  0001 C CNN "Manufacturer"
 	1    3450 7500
@@ -37,7 +37,7 @@ F 1 ".1uF" H 3992 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3900 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 3900 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 3900 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 3900 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 3900 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 3900 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 3900 7500 50  0001 C CNN "Manufacturer"
 	1    3900 7500
@@ -52,7 +52,7 @@ F 1 ".1uF" H 4442 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4350 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 4350 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 4350 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 4350 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 4350 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 4350 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 4350 7500 50  0001 C CNN "Manufacturer"
 	1    4350 7500
@@ -329,7 +329,7 @@ F 1 ".1uF" H 4842 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4750 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 4750 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 4750 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 4750 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 4750 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 4750 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 4750 7500 50  0001 C CNN "Manufacturer"
 	1    4750 7500
@@ -348,11 +348,11 @@ P 5100 7500
 F 0 "C7" H 5191 7546 50  0000 L CNN
 F 1 "470uF" H 5191 7455 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 5100 7500 50  0001 C CNN
-F 3 "https://www.cde.com/resources/catalogs/SK.pdf" H 5100 7500 50  0001 C CNN
-F 4 "470 µF 10 V Aluminum Electrolytic Capacitors Radial, Can 540mOhm 2000 Hrs @ 85°C" H 5100 7500 50  0001 C CNN "Description"
-F 5 "338-1709-ND" H 5100 7500 50  0001 C CNN "Digi-Key_PN"
-F 6 "SK471M010ST" H 5100 7500 50  0001 C CNN "MPN"
-F 7 "Cornell Dubilier Electronics (CDE)" H 5100 7500 50  0001 C CNN "Manufacturer"
+F 3 "https://datasheets.kyocera-avx.com/rpf-series.pdf" H 5100 7500 50  0001 C CNN
+F 4 "CAP ALUM 470UF 20% 10V TH" H 5100 7500 50  0001 C CNN "Description"
+F 5 "478-RPF0608471M010KCT-ND" H 5100 7500 50  0001 C CNN "Digi-Key_PN"
+F 6 "RPF0608471M010K" H 5100 7500 50  0001 C CNN "MPN"
+F 7 "KYOCERA AVX" H 5100 7500 50  0001 C CNN "Manufacturer"
 	1    5100 7500
 	1    0    0    -1  
 $EndComp
@@ -1467,7 +1467,7 @@ F 1 ".1uF" H 8742 5355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8650 5400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 8650 5400 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 8650 5400 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 8650 5400 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 8650 5400 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 8650 5400 50  0001 C CNN "MPN"
 F 7 "KEMET" H 8650 5400 50  0001 C CNN "Manufacturer"
 	1    8650 5400
@@ -1506,7 +1506,7 @@ F 1 ".1uF" H 3192 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3100 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 3100 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 3100 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 3100 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 3100 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 3100 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 3100 7500 50  0001 C CNN "Manufacturer"
 	1    3100 7500
@@ -1982,7 +1982,7 @@ F 1 ".1uF" H 2742 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2650 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 2650 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 2650 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 2650 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 2650 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 2650 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 2650 7500 50  0001 C CNN "Manufacturer"
 	1    2650 7500
@@ -2001,7 +2001,7 @@ F 1 ".1uF" H 2392 7455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2300 7500 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C104M5U5TA7303.pdf" H 2300 7500 50  0001 C CNN
 F 4 "CAP CER 0.1UF 50V Z5U RADIAL" H 2300 7500 50  0001 C CNN "Description"
-F 5 "399-9859-1-ND‎" H 2300 7500 50  0001 C CNN "Digi-Key_PN"
+F 5 "399-9859-1-ND" H 2300 7500 50  0001 C CNN "Digi-Key_PN"
 F 6 "C315C104M5U5TA7303" H 2300 7500 50  0001 C CNN "MPN"
 F 7 "KEMET" H 2300 7500 50  0001 C CNN "Manufacturer"
 	1    2300 7500
@@ -2048,7 +2048,11 @@ P 6450 5400
 F 0 "J6" H 6530 5396 50  0000 L CNN
 F 1 "Conn_01x03" V 6323 5212 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6450 5400 50  0001 C CNN
-F 3 "~" H 6450 5400 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 6450 5400 50  0001 C CNN
+F 4 "CONN HEADER VERT 3POS 2.54MM" H 6450 5400 50  0001 C CNN "Description"
+F 5 "2057-PH1-03-UA-ND" H 6450 5400 50  0001 C CNN "Digi-Key_PN"
+F 6 "PH1-03-UA" H 6450 5400 50  0001 C CNN "MPN"
+F 7 "Adam Tech" H 6450 5400 50  0001 C CNN "Manufacturer"
 	1    6450 5400
 	1    0    0    -1  
 $EndComp

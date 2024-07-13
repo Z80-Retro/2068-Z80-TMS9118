@@ -32,3 +32,11 @@ Change J6 and add J7 to allow routing the IRQ signal from the VDP to the IRQ, NM
 ## Rev 2.1 
 
 Add support for MSX joypad
+
+## Rev 2.1.1
+
+Updates to the BOM only (no PCB changes)
+- spec different C7 (old part unavailable)
+- change J6 from 2-pin to 3-pin header
+- add J7, J8, J9 2-pin headers (for MSX & IRQ-polling modes)
+- add R1 (current limit safety on J3 and J4)
